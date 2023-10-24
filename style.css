@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background: url("https://www.uengage.in/images/addo/logos/logo-6670-1644911190.jpeg") fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    font-size: 20px;
+    background-position: center;
+}
+
+header h1{
+    font-size: 60px;
+    font-weight: 800;
+    color:white;
+    z-index: 2;
+}
+header section{
+    height:80vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.505);
+    position: absolute;
+    z-index: 0;
+}
+header p ,header button{
+    z-index: 2;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    background-color: rgb(178, 5, 5);
+    margin:20px;
+    color:white;
+    border-radius: 6px;
+}
+
+button:hover{
+    color:rgb(178, 5, 5);
+    border:2px solid rgb(178, 5, 5);
+    background: transparent;
+}
+.order_id{
+    position: fixed;
+    top:20px;
+    right:20px;
+    color:red;
+    font-size: 22px;
+    font-weight: 800;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin:5px;
+}
+.loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #9d211b; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
