@@ -1,8 +1,8 @@
 let order_section = document.querySelector(".order");
 let orderid = 432;
 
-const order_btn = document.querySelector(".order_btn");
-order_btn.addEventListener("click", () => {
+const orderbtn = document.querySelector(".order_btn");
+orderbtn.addEventListener("click", () => {
   let burger = document.getElementById("burger");
   let fries = document.getElementById("Fries");
   let coldDrink = document.getElementById("cold-Drink");
